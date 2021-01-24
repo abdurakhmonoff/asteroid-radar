@@ -1,3 +1,6 @@
+# Note
+I didn't include API key. You set your API key in ```Constants.kt```
+
 # Project Title
 
 Asteroid Radar
