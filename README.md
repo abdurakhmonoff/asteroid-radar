@@ -1,5 +1,5 @@
 # Note
-I didn't include API key. You set your API key in ```Constants.kt```
+I didn't include API key. You can set your API key in ```Constants.kt```
 
 # Project Title
 
