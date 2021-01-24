@@ -76,11 +76,3 @@ fun imageOfDay(imageView: ImageView, image: PictureOfDay?) {
         }
     }
 }
-
-fun setStatusIconContentDescription(imageView: ImageView, potentiallyHazardous: Boolean?) {
-    if (potentiallyHazardous == true) {
-        imageView.contentDescription = "Potentially hazardous"
-    } else {
-        imageView.contentDescription = "Not hazardous"
-    }
-}

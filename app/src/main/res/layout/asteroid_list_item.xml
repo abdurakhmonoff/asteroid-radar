@@ -51,6 +51,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/right_guideline"
             app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@{asteroid.potentiallyHazardous ? @string/potentially_hazardous : @string/not_hazardous}"
             app:statusIcon="@{asteroid.potentiallyHazardous}"
             tools:srcCompat="@drawable/ic_status_potentially_hazardous" />
 
